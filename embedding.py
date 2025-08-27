@@ -31,19 +31,19 @@ def load_documents():
     return docs
 
 def main():
-    print("📂 Loading documents...")
+    print("...Loading documents...")
     docs = load_documents()
 
-    print("✂️ Splitting into chunks...")
+    print(" Splitting into chunks...")
     splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)
     split_docs = splitter.split_documents(docs)
 
-    print("🔎 Embedding and creating FAISS index...")
+    print(" Embedding and creating FAISS index...")
     embeddings = OpenAIEmbeddings()
     db = FAISS.from_documents(split_docs, embeddings)
 
     db.save_local("faiss_index")
-    print("✅ Index saved to faiss_index/")
+    print("Index saved to faiss_index/")
 
 if __name__ == "__main__":
     main()
