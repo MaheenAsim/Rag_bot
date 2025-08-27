@@ -1,7 +1,7 @@
 
 ## 📄 README.md for RAG Basic
 
-````markdown
+
 #  RAG Chatbot
 
 A simple **Retrieval-Augmented Generation (RAG) chatbot** built with Python.  
