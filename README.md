@@ -31,7 +31,7 @@ This project demonstrates how to connect a **document store** (FAISS) with an **
 ##  Setup
 1. Clone the repository:
  
-   git clone https://github.com/your-username/rag-basic.git
+   git clone https://github.com/Maheen Asim/Rag-bot.git
    cd rag-basic
 
 
