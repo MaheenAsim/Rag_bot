@@ -30,10 +30,10 @@ This project demonstrates how to connect a **document store** (FAISS) with an **
 
 ##  Setup
 1. Clone the repository:
-   ```bash
+ 
    git clone https://github.com/your-username/rag-basic.git
    cd rag-basic
-````
+
 
 2. Create a virtual environment:
 
@@ -107,9 +107,3 @@ Bot: This project is a simple demo of Retrieval-Augmented Generation (RAG). It u
 
 Feel free to fork, modify, and build on top of it! :))
 
-```
-
----
-
-👉 Do you also want me to **generate the starter code (`embedding.py` + `chat.py`)** to go with this README so your GitHub repo is plug-and-play?
-```
